@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: "dix25/mysynbackendtier1210"
+          image: "dix25/mysynbackendtier1221"
           ports:
             - name: http
               containerPort: 80
@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "dix25/mysynfrontendtier1210"
+        image: "dix25/mysynfrontendtier1221"
         ports:
           - name: http
             containerPort: 80
